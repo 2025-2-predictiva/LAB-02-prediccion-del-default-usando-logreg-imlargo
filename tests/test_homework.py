@@ -17,37 +17,37 @@ MODEL_COMPONENTS = [
     "LogisticRegression",
 ]
 SCORES = [
-    0.639,
-    0.654,
+    0.600,
+    0.620,
 ]
 METRICS = [
     {
         "type": "metrics",
         "dataset": "train",
-        "precision": 0.693,
-        "balanced_accuracy": 0.639,
-        "recall": 0.319,
-        "f1_score": 0.437,
+        "precision": 0.690,
+        "balanced_accuracy": 0.600,
+        "recall": 0.200,
+        "f1_score": 0.300,
     },
     {
         "type": "metrics",
         "dataset": "test",
-        "precision": 0.701,
-        "balanced_accuracy": 0.654,
-        "recall": 0.349,
-        "f1_score": 0.466,
+        "precision": 0.700,
+        "balanced_accuracy": 0.620,
+        "recall": 0.250,
+        "f1_score": 0.38,
     },
     {
         "type": "cm_matrix",
         "dataset": "train",
         "true_0": {"predicted_0": 15560, "predicted_1": None},
-        "true_1": {"predicted_0": None, "predicted_1": 1508},
+        "true_1": {"predicted_0": None, "predicted_1": 1100},
     },
     {
         "type": "cm_matrix",
         "dataset": "test",
         "true_0": {"predicted_0": 6785, "predicted_1": None},
-        "true_1": {"predicted_0": None, "predicted_1": 660},
+        "true_1": {"predicted_0": None, "predicted_1": 500},
     },
 ]
 
